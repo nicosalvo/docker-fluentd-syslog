@@ -1,10 +1,10 @@
 # fluentd
-Fluentd custom docker image
 
-The following plugins are installed
+Custom docker image with remote_syslog output.
 
-fluent-plugin-rewrite-tag-filter 
-fluent-plugin-record-reformer 
-fluent-plugin-kubernetes_metadata_filter 
-fluent-plugin-remote_syslog
+## Plugins
 
+- fluent-plugin-rewrite-tag-filter 
+- fluent-plugin-record-reformer 
+- fluent-plugin-kubernetes_metadata_filter 
+- fluent-plugin-remote_syslog
