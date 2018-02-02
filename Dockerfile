@@ -8,6 +8,7 @@ RUN apk add --update --virtual .build-deps sudo build-base ruby-dev && \
     sudo gem install --no-document fluent-plugin-record-reformer && \
     sudo gem install --no-document fluent-plugin-kubernetes_metadata_filter -v 0.25.3 && \
     sudo gem install --no-document fluent-plugin-remote_syslog && \
+    sudo gem install --no-document fluent-plugin-loggly && \
     sudo gem sources --clear-all && \
     apk del .build-deps && \
     rm -rf /var/cache/apk/* /home/fluent/.gem/ruby/2.3.0/cache/*.gem
